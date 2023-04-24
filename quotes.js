@@ -12,7 +12,7 @@ const localQuotes = [
         "author": "Dalai Lama XIV"
     },
     {
-        "text": "Metuose yra tik dvi dienos, kuomet negalima nieko daryti. Viena vadinasi vakar, o kita – rytoj. Šiandiena yra diena, kai galite mylėti, tikėti, veikti ir, svarbiausia, gyventi.",
+        "text": "Metuose yra tik dvi dienos, kuomet negalima nieko daryti. Viena vadinasi vakar, o kita rytoj. Šiandiena yra diena, kai galite mylėti, tikėti, veikti ir, svarbiausia, gyventi.",
         "author": "Dalai Lama XIV"
     },
     {
@@ -22,5 +22,13 @@ const localQuotes = [
     {
         "text": "Jeigu manote, kad esate per mažas kažką pakeisti, pamiegokite su uodu.",
         "author": "Dalai Lama XIV"
+    },
+    {
+        "text": "Kartais nepastovumas kyla iš vėjavaikiškumo, kai priimame visokias svetimas nuomones, yra ir kitas nepastovumo atvejis, labiau pateisinamas, kai viskas nusibodę ir viskam esame abejingi.",
+        "author": null
+    },
+    {
+        "text": "trumpa citata",
+        "author": null
     }
 ]
