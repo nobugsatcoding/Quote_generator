@@ -28,7 +28,19 @@ const localQuotes = [
         "author": null
     },
     {
-        "text": "trumpa citata",
+        "text": "Mes gyvename iš to, ką gauname, bet kuriame gyvenimą iš to, ką duodame.",
+        "author": "V. Čerčilis"
+    },
+    {
+        "text": "Jei nori gyventi sau, gyvenk kitiems.",
+        "author": "Seneka"
+    },
+    {
+        "text": "Keliaudami galite susibadyti spygliais, bet stovėdami vietoje nepamatysite rožių.",
         "author": null
+    },
+    {
+        "text": "Jeigu negalite pamaitinti šimto žmonių, pamaitinkit bent vieną.",
+        "author": "Motina Teresa"
     }
 ]
