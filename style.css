@@ -7,8 +7,9 @@ html{
 body{
     margin: 0;
     min-height: 100vh;
-    background-color: #f2eff8;
-    background-image: url("https://previews.123rf.com/images/liudmilachernetska/liudmilachernetska2212/liudmilachernetska221235395/196231660-open-blank-notebook-with-pen-isolated-on-white-top-view.jpg");
+    background: url("https://images.unsplash.com/photo-1681549734363-5c8a06428d5d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1172&q=80");
+    background-size: cover;
+    background-repeat: no-repeat;
     color:#000000;
     font-family: 'Dancing Script', cursive;
     font-weight: 700;
@@ -22,9 +23,8 @@ body{
     width: auto;
     max-width: 900px;
     padding: 20px 30px;
-    border-radius: 10px;
-    background-color: rgb(255, 228, 196, 0.4);
-    box-shadow: 0 10px 10px 10px rgba(0, 0, 0, 0.2);
+    background-color: rgba(206, 192, 175, 0.65);
+    box-shadow: -15px 15px 50px 20px rgba(66, 70, 88, 0.5);
 }
 
 .quote-text{
@@ -57,19 +57,16 @@ body{
     font-size: 1.2rem;
     height: 2.5rem;
     border: none;
-    border-radius: 10px;
     color: #ffffff;
-    background-color: #62b961;
+    background-color: #9ad88b;
     outline: none;
     padding: 0.5rem 1.8rem;
     box-shadow: 0.15rem 0.3rem rgba(121, 121, 121, 0.65);
 }
 
-
-
 .footBtn:hover{
-    filter: brightness(120%);
-    outline: 2px solid rgb(47, 138, 47);
+    filter: brightness(110%);
+    outline: 3px solid rgb(47, 138, 47);
 }
 
 .footBtn:active{
@@ -85,11 +82,33 @@ body{
     font-size: 1.5rem;
 }
 
-#languageBtn{
+.engLtBtn{
+    margin-bottom: 1.5rem;
+    display: flex;
+    align-items: flex-end;
+}
+
+.languageBtn{
     border: none;
-    border-radius: 1rem;
     background-repeat: no-repeat;
-    color: #1c2076;
+    color: #ffffff;
+    font-weight: 900;
+    text-shadow: 
+        -1px -1px #000000,
+        1px -1px #000000,
+        -1px 1px #000000,
+        1px 1px #000000;
+    margin: 0 0.25rem;
+    padding: 0 0.25rem;
+}
+
+.languageBtn:hover{
+    filter: brightness(120%);
+}
+
+.languageBtn:active{
+    filter: brightness(200%);
+    font-weight: 300;
 }
 
 /* Loader */
@@ -108,11 +127,11 @@ body{
   }
 
 /* Media Querry: Tablet or Smaller */
-@media screen and (max-width: 1000px){
+@media screen and (max-width: 750px){
     .quote-container{
         margin: auto 10px;
     }
     .quote-text{
-        font-size: 2.5rem;
+        font-size: 2.25rem;
     }
 }

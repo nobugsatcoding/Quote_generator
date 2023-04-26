@@ -8,25 +8,26 @@ const loader = document.getElementById('loader');
 let apiQuotes = [];
 
 // laoding function show loading
-function loading() {
+function showLoadingSpinner() {
     loader.hidden = false;
     quoteContainer.hidden = true;
 }
 
 // laoding function hide loading
-
-
-function complete() {
-    quoteContainer.hidden = false;
-    loader.hidden = true;
+function hideLoadingSpinner() {
+    if (!loader.hidden) {
+        quoteContainer.hidden = false;
+        loader.hidden = true;
+    }
 }
+
 
 
 // Show new Quote
 function newQuote() {
 // Pick random Quote from apiQuote array
 
-    loading();
+    showLoadingSpinner();
     
     const quote = localQuotes[Math.floor(Math.random() * localQuotes.length)]
 
@@ -44,7 +45,7 @@ function newQuote() {
     quoteText.textContent = quote.text;
 
     // set qoute, hide loader
-    complete();
+    hideLoadingSpinner();
 }
 
 //Get Quotes from API
