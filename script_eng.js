@@ -1,7 +1,7 @@
 const quoteContainer = document.getElementById('quote-container');
 const quoteText = document.getElementById('quote');
 const authorText = document.getElementById('quote-author');
-const LinkedinBtn = document.getElementById('facebook');
+const LinkedinBtn = document.getElementById('linkedin');
 const newQuoteBtn = document.getElementById('new-quote');
 const loader = document.getElementById('loader');
 
@@ -45,12 +45,8 @@ function newQuote() {
         hideLoadingSpinner();
     }
 
-
-
 // Get Quotes from API
 async function getQuotes() {
-
-    // showLoadingSpinner();
 
     const apiUrl = 'https://jacintodesign.github.io/quotes-api/data/quotes.json';
         // alternative API for quotes
@@ -63,8 +59,6 @@ async function getQuotes() {
             // catch error here
                 alert('error');
             }
-
-    // hideLoadingSpinner();
 }
 
 // open Linkedin
@@ -75,7 +69,6 @@ function linkedin() {
 //Event listener
 newQuoteBtn.addEventListener('click', newQuote);
 LinkedinBtn.addEventListener('click', linkedin)
-
 
 //Load Quotes
 getQuotes();

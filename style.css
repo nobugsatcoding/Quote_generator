@@ -78,7 +78,7 @@ body{
     color: #4267B2;
 }
 
-.fa-facebook{
+.fa-linkedin{
     font-size: 1.5rem;
 }
 
@@ -113,7 +113,7 @@ body{
 
 /* Loader */
 .loader {
-    border: 16px solid #f3f3f3; /* Light grey */
+    border: 16px solid #c0b7b7; /* Light grey */
     border-top: 16px solid #34db5b; /* green */
     border-radius: 50%;
     width: 120px;

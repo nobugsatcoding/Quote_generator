@@ -40,6 +40,42 @@ const localQuotes = [
         "author": null
     },
     {
+        "text": "Ne visi svajotojai yra nugalėtojai, bet visi nugalėtojai yra svajotojai.",
+        "author": "Markas Gormanas (profesionalus futbolo žaidėjas)"
+    },
+    {
+        "text": "Genijus yra 1% įkvėpimo ir 99 % darbo.",
+        "author": "Thomas Edisonas"
+    },
+    {
+        "text": "Meilė – tai ne žiūrėjimas vienas į kitą, o žiūrėjimas kartu ta pačia kryptimi.",
+        "author": "A. de Sent-Egziuperi"
+    },
+    {
+        "text": "Išmintingas žmogus turi turėti pinigus savo galvoje, bet ne savo širdyje.",
+        "author": "Džonatanas Sviftas"
+    },
+    {
+        "text": "Daugelis žmonių nesirūpina pinigais, kol jie beveik nesibaigia, o kiti daro tą patį su savo laiku.",
+        "author": "Johanas Volfgangas Gėtė"
+    },
+    {
+        "text": "Žmogus, kuris niekad nedarė klaidų, niekada nebandė kažko naujo.",
+        "author": "Albertas Einsteinas"
+    },
+    {
+        "text": "Jeigu gali viską kontroliuoti, tai reiškia, kad į priekį judi per lėtai..",
+        "author": "Mario Andretti"
+    },
+    {
+        "text": "Net ir tūkstančio mylių kelionė prasideda nuo vieno žingsnio.",
+        "author": "Lao Tzu (senovės Kinijos filosofas)"
+    },
+    {
+        "text": "Aš pradėjau skaityti knygą ir kaip pasitaiko kartais žmogui, turinčiam sidabrą, rasti auksą... taip ir aš, ieškodamas paguodos, radau ne tik nusiraminimą savo  varguose, bet dargi ir pamokymą..",
+        "author": "Dante"
+    },
+    {
         "text": "Jeigu negalite pamaitinti šimto žmonių, pamaitinkit bent vieną.",
         "author": "Motina Teresa"
     }
