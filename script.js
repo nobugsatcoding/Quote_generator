@@ -1,7 +1,7 @@
 const quoteContainer = document.getElementById('quote-container');
 const quoteText = document.getElementById('quote');
 const authorText = document.getElementById('quote-author');
-const fbBtn = document.getElementById('facebook');
+const LinkedinBtn = document.getElementById('facebook');
 const newQuoteBtn = document.getElementById('new-quote');
 const loader = document.getElementById('loader');
 
@@ -20,8 +20,6 @@ function hideLoadingSpinner() {
         loader.hidden = true;
     }
 }
-
-
 
 // Show new Quote
 function newQuote() {
@@ -44,7 +42,7 @@ function newQuote() {
 
     quoteText.textContent = quote.text;
 
-    // set qoute, hide loader
+
     hideLoadingSpinner();
 }
 
@@ -63,14 +61,14 @@ function newQuote() {
 //     }
 // }
 
-// open Facebook
-function facebookQuote() {
+// open Linkedin
+function Linkedin() {
     window.open('https://www.linkedin.com/feed/');
 }
 
 //Event listener
 newQuoteBtn.addEventListener('click', newQuote);
-fbBtn.addEventListener('click', facebookQuote)
+LinkedinBtn.addEventListener('click', Linkedin)
 
 
 //Load Quotes
